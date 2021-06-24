@@ -1,0 +1,32 @@
+:root {
+  --blender-background: #464646;
+  --blender-gray: #585858;
+  --blender-dark-gray: #232323;
+  --blender-text: #d5d5d5;
+  --blender-blue: #557ab6;
+  --blender-pie-border: #333333;
+}
+
+body {
+  background-color: var(--blender-background);
+  color: aliceblue;
+}
+
+.pie-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+svg .pupil {
+  fill: var(--blender-blue);
+}
+
+svg .eyeball,
+svg .eyeball-cover {
+  fill: var(--blender-dark-gray);
+  stroke: var(--blender-pie-border);
+  stroke: red;
+  stroke-width: 1;
+}
